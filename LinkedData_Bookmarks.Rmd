@@ -1,0 +1,226 @@
+---
+title: "LinkedData_Bookmarks"
+author: "Katharina Kaelin"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float:
+      collapsed: true
+      smooth_scroll: true
+    theme: lumen
+    highlight: tango
+---
+
+<style type="text/css">
+.main-container {
+  max-width: 1800px;
+  margin-left: 0;
+  margin-right: auto;
+}
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 14px;
+    border-left: 5px solid #eee;
+}
+</style>
+
+Instead of providing yet another documentation of Linked Data we decided to stand on the shoulder of giants and share a list of bookmarks that give you a good introduction into the topic. 
+
+The learning curve involved in being able to use Linked Data is without a doubt significant. The following list of bookmarks try to ease the learning process. Don’t get intimidated by the various technical terms, formalisms and standards you will encounter along the path. To quote some of the original inventors:  “The Semantic Web can’t exist without carefully developed and agreed standards”. It is important to understand that exactly these carefully defined standards make Linked Data such a powerful way to structure and share information. 
+
+The bookmarks are classified in four groups: 
+
+1. Motivation
+2. Non-technical Introduction
+3. More in depth resources
+4. Linked Data in Switzerland
+
+We wish you a fun and interesting learning journey.
+
+# 1. Motivation
+
+Watch Tim Berners-Lee, the inventor of the World Wide Web, talk about Linked Data. In the first talk he asks to unlock our data and reframe the way we use it together. In the second talk he shows a few of the interesting results when the data gets linked up.
+
+>**On the next web [Video]** <br>
+>https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=en
+>
+>**Open data went worldwide [Video]** <br>
+>https://www.ted.com/talks/tim_berners_lee_the_year_open_data_went_worldwide?language=en
+
+Have a look at the following “10 cool queries for Wikidata that will blow your mind”:
+
+>**10 cool queries for Wikidata that will blow your mind. Number 7 will shock you.** <br>
+>https://blog.wikimedia.de/2016/10/30/10-cool-queries-for-wikidata-that-will-blow-your-mind-number-7-will-shock-you/
+
+# 2. Non-technical Introduction
+
+This short video is a great way for a first short non-technical introduction to Linked Data
+
+>**What is linked data [Video]** <br>
+>https://www.youtube.com/watch?v=4x_xzT5eF5Q
+
+Ontola and the City of Zurich did a good job at introducing Linked Data in this 10 minutes non-technical read. 
+
+>**Ontola : A brief introduction to linked data [Webpage]** <br>
+>https://ontola.io/what-is-linked-data/
+>
+>**City of Zurich:  Einfacher, schneller, besser – Linked Open Statistical Data [Webpage]** <br>
+Beitrag im Bulletin der Swiss Statistical Society, Nr. 90, August 2018 >https://www.stadt-zuerich.ch/prd/de/index/statistik/publikationen-angebote/publikationen/ssz-magazin/2018-07-31_Einfacher-schneller-besser-Linked-Open-Statistical-Data.html
+
+# 3. More in depth resources
+
+These links provide a more thorough introduction to linked data: 
+
+>**Linked Data Tools: Introducing Linked Data And The Semantic Web [Webpage]** <br>
+>http://www.linkeddatatools.com/semantic-web-basics
+>
+>**Cambridge Semantics Inc.: Semantic University [Webpage]** <br>
+>https://www.cambridgesemantics.com/blog/semantic-university/
+>
+>**W3: Linked Data (Tim Berners-Lee) [Webpage]** <br>
+>https://www.w3.org/DesignIssues/LinkedData.html
+>
+>**Shadbolt, Nigel, Tim Berners-Lee, and Wendy Hall. "The semantic web revisited." IEEE intelligent systems 21.3 (2006): 96-101. [Paper]** <br>
+>https://eprints.soton.ac.uk/262614/1/Semantic_Web_Revisted.pdf
+>
+>**Heath, Tom, and Christian Bizer. "Linked data: Evolving the web into a global data space." Synthesis lectures on the semantic web: theory and technology 1.1 (2011): 1-136. [Book]** <br>
+>http://linkeddatabook.com/editions/1.0/ 
+>
+>**Zazuko [Webpage]** <br>
+Linked Data Training <br>
+>http://linked-data-training.zazuko.com/
+>https://github.com/zazuko/linked-data-training
+>
+>**PWC [Presentation]** <br>
+Introduction to Linked Data <br>
+>https://joinup.ec.europa.eu/sites/default/files/document/2015-05/d2.1.2_training_module_1.2_introduction_to_linked_data_v1.00_en.pdf   
+Introduction to RDF and SPARQL <br>
+>https://joinup.ec.europa.eu/sites/default/files/document/2015-05/d2.1.2_training_module_1.3_introduction_to_rdf_sparql_v1.00_en.pdf <br> 
+>
+>**OpenOrg [Webpage]** <br>
+Linked Data Basics for Techies <br>
+>http://openorg.ecs.soton.ac.uk/wiki/Linked_Data_Basics_for_Techies
+>
+>**Universiteit Amsterdam: Linked Data Principles and Examples [Webpage]** <br>
+>https://www.slideshare.net/vdeboer/linked-data-principles-and-examples
+>
+>**Linked Open Government Data [Webpage]** <br>
+>https://logd.tw.rpi.edu/
+
+The following links contain helpful resources for specific topics (the topics are ordered alphabetically):
+
+## GeoSPARQL
+
+>**OGC: Getting Started withGeoSPARQL [Presentation]** <br>
+>https://www.ssec.wisc.edu/meetings/geosp_sem/presentations/GeoSPARQL_Getting_Started%20-%20KolasWorkshop%20Version.pdf
+>
+>**Geosparql.org [Webpage]** <br>
+>http://www.geosparql.org/
+>
+>**OGC: GeoSPARQL - A Geographic Query Language for RDF Data [Webpage]** <br>
+>https://www.opengeospatial.org/standards/geosparql
+>
+>**Université de Genève: GeoSPARQL: an introduction [Presentation]** <br>
+>http://cui.unige.ch/isi/icle-wiki/_media/cours:sw:intro_geosparql.pdf
+
+## JSON-LD
+
+>**Linked Data Tools: Introducing Linked Data And The Semantic Web [Webpage]** <br>
+>http://www.linkeddatatools.com/introduction-json-ld
+>
+>**Wiki: JSON-LD [Webpage]** <br>
+>https://en.wikipedia.org/wiki/JSON-LD
+
+## Named Graph
+
+>**Named Graph[Webpage]** <br>
+>http://patterns.dataincubator.org/book/named-graphs.html 
+>
+>**Managing RDF Using Named Graphs [Webpage]** <br>
+>https://blog.ldodds.com/2009/11/05/managing-rdf-using-named-graphs/
+
+## RDF
+
+>**Linked Data Tools: Introducing Linked Data And The Semantic Web [Webpage]** <br>
+>http://www.linkeddatatools.com/introducing-rdf-part-2
+>
+>**Cambridge Semantics Inc.: Semantic University [Webpage]** <br>
+>https://www.cambridgesemantics.com/blog/semantic-university/learn-rdf/
+>
+>**W3: Resource Description Framework (RDF):Concepts and Abstract Syntax [Webpage]** <br>
+>https://www.w3.org/TR/rdf-concepts/#section-Concepts
+>
+>**An Introduction to RDF and the Jena RDF API [Webpage]** <br>
+>https://jena.apache.org/tutorials/rdf_api.html
+
+## RDFS & OWL
+
+>**Linked Data Tools: Introducing Linked Data And The Semantic Web [Webpage]** <br>
+>http://www.linkeddatatools.com/introducing-rdfs-owl <br>
+>http://www.linkeddatatools.com/help/classes <br>
+>http://www.linkeddatatools.com/help/properties <br>
+>
+>**Cambridge Semantics Inc.: Semantic University [Webpage]** <br>
+>https://www.cambridgesemantics.com/blog/semantic-university/learn-owl-rdfs/
+>
+>**Wiki: RDF-Schema [Webpage]** <br>
+>https://en.wikipedia.org/wiki/RDF_Schema
+>
+>**Wiki: OWL [Webpage]** <br>
+>https://en.wikipedia.org/wiki/Web_Ontology_Language
+>
+>**W3: RDFS [Webpage]** <br>
+>https://www.w3.org/2001/sw/wiki/RDFS
+>
+>**W3: OWL [Webpage]** <br>
+>https://www.w3.org/OWL/
+
+## SPARQL
+
+>**data world SPARQL tutorial [Webpage]** <br>
+>https://docs.data.world/tutorials/sparql/
+>
+>**Cambridge Semantics Inc.: Semantic University [Webpage]** <br>
+>https://www.cambridgesemantics.com/blog/semantic-university/learn-sparql/
+>
+>**Cheat Sheet [Presentation]** <br>
+>http://www.iro.umontreal.ca/~lapalme/ift6281/sparql-1_1-cheat-sheet.pdf
+>
+>**Querying RDF Data Cubes with SPARQL [Video]** <br>
+>https://www.youtube.com/watch?v=IUyzwwwIJSk&t=4s
+>
+>**W3 SPARQL 1.1 Query Language [Webpage]** <br>
+>https://www.w3.org/TR/sparql11-query/
+
+## Turtle
+
+>**Wiki: Tutle (syntax) [Webpage]** <br>
+>https://en.wikipedia.org/wiki/Turtle_(syntax) 
+
+## URI, URL, and URN
+
+>**MicroNugget: What's the Difference Between URI, URL, and URN? [Video]** <br>
+>https://www.youtube.com/watch?v=if0pzXWZOfY
+
+#  4. Linked Data in Switzerland
+
+Links to linked Data applications of the swiss government: 
+
+>**Federal Statistical Office [Webpage]** <br>
+>http://data.admin.ch/ <br>
+>https://lindas-data.ch/indexEN.html <br>
+>https://www.egovernment.ch/en/umsetzung/e-government-schweiz-2008-2015/lindas/ <br>
+>
+>**City of Zurich [Webpage]** <br>
+>https://github.com/StatistikStadtZuerich/documentation
+>
+>**Swisstopo [Webpage]** <br>
+>https://www.geo.admin.ch/en/geo-services/geo-services/linkeddata.html
+
