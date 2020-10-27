@@ -223,4 +223,6 @@ Links to linked Data applications of the swiss government:
 >
 >**Swisstopo [Webpage]** <br>
 >https://www.geo.admin.ch/en/geo-services/geo-services/linkeddata.html
+>
+>**Basisregister und kontrollierte Vokabulare als Wegbereiter für Linked Open Data in der Schweiz [Paper]** <br> https://arbor.bfh.ch/10249/1/Estermann_et_al_2020_Basisregister_LOD_v1.0_20200127.pdf
 
